@@ -1,0 +1,83 @@
+/MANIFEST:NO
+/NOLOGO
+/DEBUG
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/FIXED:No
+/NXCOMPAT
+/STACK:5000000
+/DELAY:UNLOAD
+/DLL
+/PDBALTPATH:%_PDB%
+/OPT:NOREF
+/OPT:NOICF
+/INCREMENTAL:NO
+/ignore:4199
+/ignore:4099
+/DELAYLOAD:"d3d12.dll"
+/NODEFAULTLIB:"LIBCMT"
+/NODEFAULTLIB:"LIBCPMT"
+/NODEFAULTLIB:"LIBCMTD"
+/NODEFAULTLIB:"LIBCPMTD"
+/NODEFAULTLIB:"MSVCRTD"
+/NODEFAULTLIB:"MSVCPRTD"
+/NODEFAULTLIB:"LIBC"
+/NODEFAULTLIB:"LIBCP"
+/NODEFAULTLIB:"LIBCD"
+/NODEFAULTLIB:"LIBCPD"
+"C:\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Uni Project Unreal Engine\BattleArena\SJLynch1_BA_Project\Intermediate\Build\Win64\UE4Editor\Development\SJLynch1_BA_Project\SJLynch1_BA_Project.cpp.obj"
+"C:\Uni Project Unreal Engine\BattleArena\SJLynch1_BA_Project\Intermediate\Build\Win64\UE4Editor\Development\SJLynch1_BA_Project\HealthComponent.cpp.obj"
+"C:\Uni Project Unreal Engine\BattleArena\SJLynch1_BA_Project\Intermediate\Build\Win64\UE4Editor\Development\SJLynch1_BA_Project\BAExplosiveBarrel.cpp.obj"
+"C:\Uni Project Unreal Engine\BattleArena\SJLynch1_BA_Project\Intermediate\Build\Win64\UE4Editor\Development\SJLynch1_BA_Project\BAGameMode.cpp.obj"
+"C:\Uni Project Unreal Engine\BattleArena\SJLynch1_BA_Project\Intermediate\Build\Win64\UE4Editor\Development\SJLynch1_BA_Project\HeroGLauncher.cpp.obj"
+"C:\Uni Project Unreal Engine\BattleArena\SJLynch1_BA_Project\Intermediate\Build\Win64\UE4Editor\Development\SJLynch1_BA_Project\HeroCharacter.cpp.obj"
+"C:\Uni Project Unreal Engine\BattleArena\SJLynch1_BA_Project\Intermediate\Build\Win64\UE4Editor\Development\SJLynch1_BA_Project\BAPickupActor.cpp.obj"
+"C:\Uni Project Unreal Engine\BattleArena\SJLynch1_BA_Project\Intermediate\Build\Win64\UE4Editor\Development\SJLynch1_BA_Project\BAPlayerState.cpp.obj"
+"C:\Uni Project Unreal Engine\BattleArena\SJLynch1_BA_Project\Intermediate\Build\Win64\UE4Editor\Development\SJLynch1_BA_Project\BAPowerupActor.cpp.obj"
+"C:\Uni Project Unreal Engine\BattleArena\SJLynch1_BA_Project\Intermediate\Build\Win64\UE4Editor\Development\SJLynch1_BA_Project\HeroWeapon.cpp.obj"
+"C:\Uni Project Unreal Engine\BattleArena\SJLynch1_BA_Project\Intermediate\Build\Win64\UE4Editor\Development\SJLynch1_BA_Project\BAExplosiveBarrel.gen.cpp.obj"
+"C:\Uni Project Unreal Engine\BattleArena\SJLynch1_BA_Project\Intermediate\Build\Win64\UE4Editor\Development\SJLynch1_BA_Project\BAGameMode.gen.cpp.obj"
+"C:\Uni Project Unreal Engine\BattleArena\SJLynch1_BA_Project\Intermediate\Build\Win64\UE4Editor\Development\SJLynch1_BA_Project\BAPickupActor.gen.cpp.obj"
+"C:\Uni Project Unreal Engine\BattleArena\SJLynch1_BA_Project\Intermediate\Build\Win64\UE4Editor\Development\SJLynch1_BA_Project\BAPlayerState.gen.cpp.obj"
+"C:\Uni Project Unreal Engine\BattleArena\SJLynch1_BA_Project\Intermediate\Build\Win64\UE4Editor\Development\SJLynch1_BA_Project\BAPowerupActor.gen.cpp.obj"
+"C:\Uni Project Unreal Engine\BattleArena\SJLynch1_BA_Project\Intermediate\Build\Win64\UE4Editor\Development\SJLynch1_BA_Project\HealthComponent.gen.cpp.obj"
+"C:\Uni Project Unreal Engine\BattleArena\SJLynch1_BA_Project\Intermediate\Build\Win64\UE4Editor\Development\SJLynch1_BA_Project\HeroCharacter.gen.cpp.obj"
+"C:\Uni Project Unreal Engine\BattleArena\SJLynch1_BA_Project\Intermediate\Build\Win64\UE4Editor\Development\SJLynch1_BA_Project\HeroGLauncher.gen.cpp.obj"
+"C:\Uni Project Unreal Engine\BattleArena\SJLynch1_BA_Project\Intermediate\Build\Win64\UE4Editor\Development\SJLynch1_BA_Project\HeroWeapon.gen.cpp.obj"
+"C:\Uni Project Unreal Engine\BattleArena\SJLynch1_BA_Project\Intermediate\Build\Win64\UE4Editor\Development\SJLynch1_BA_Project\SJLynch1_BA_Project.init.gen.cpp.obj"
+"C:\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\SJLynch1_BA_Project\PCLaunch.rc.res"
+"C:\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+"delayimp.lib"
+"wininet.lib"
+"rpcrt4.lib"
+"ws2_32.lib"
+"dbghelp.lib"
+"comctl32.lib"
+"Winmm.lib"
+"kernel32.lib"
+"user32.lib"
+"gdi32.lib"
+"winspool.lib"
+"comdlg32.lib"
+"advapi32.lib"
+"shell32.lib"
+"ole32.lib"
+"oleaut32.lib"
+"uuid.lib"
+"odbc32.lib"
+"odbccp32.lib"
+"netapi32.lib"
+"iphlpapi.lib"
+"setupapi.lib"
+"dwmapi.lib"
+"imm32.lib"
+"C:\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Engine.lib"
+"C:\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Core.lib"
+"C:\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoreUObject.lib"
+"C:\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-InputCore.lib"
+/OUT:"C:\Uni Project Unreal Engine\BattleArena\SJLynch1_BA_Project\Binaries\Win64\UE4Editor-SJLynch1_BA_Project-3651.dll"
+/IMPLIB:"C:\Uni Project Unreal Engine\BattleArena\SJLynch1_BA_Project\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SJLynch1_BA_Project-3651.suppressed.lib"
+/PDB:"C:\Uni Project Unreal Engine\BattleArena\SJLynch1_BA_Project\Binaries\Win64\UE4Editor-SJLynch1_BA_Project-3651.pdb"
+/ignore:4078
