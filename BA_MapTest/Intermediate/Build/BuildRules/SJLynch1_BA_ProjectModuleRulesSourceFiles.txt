@@ -1,3 +1,3 @@
-C:\Uni Project Unreal Engine\BA_MapTest\Source\SJLynch1_BA_Project\SJLynch1_BA_Project.Build.cs
-C:\Uni Project Unreal Engine\BA_MapTest\Source\SJLynch1_BA_Project.Target.cs
-C:\Uni Project Unreal Engine\BA_MapTest\Source\SJLynch1_BA_ProjectEditor.Target.cs
+C:\Unreal Projects\BattleArena\BattleArenaProject\BA_MapTest\Source\SJLynch1_BA_Project\SJLynch1_BA_Project.Build.cs
+C:\Unreal Projects\BattleArena\BattleArenaProject\BA_MapTest\Source\SJLynch1_BA_Project.Target.cs
+C:\Unreal Projects\BattleArena\BattleArenaProject\BA_MapTest\Source\SJLynch1_BA_ProjectEditor.Target.cs

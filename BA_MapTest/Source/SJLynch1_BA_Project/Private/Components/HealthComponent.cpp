@@ -11,6 +11,8 @@ UHealthComponent::UHealthComponent()
 
 	DefaultArmour = 100;
 
+	DefaultOverallStack = DefaultArmour + DefaultHealth;
+
 	TeamNum = 255;
 
 	bIsDead = false;
@@ -32,6 +34,7 @@ void UHealthComponent::BeginPlay()
 	}
 	Health = DefaultHealth;
 	Armour = DefaultArmour;
+	OverallStack = Health + Armour;
 }
 
 
@@ -57,6 +60,7 @@ void UHealthComponent::Heal(float HealAmount)
 	UE_LOG(LogTemp, Log, TEXT("Health Changed: %s (+%s)"), *FString::SanitizeFloat(Health), *FString::SanitizeFloat(HealAmount));
 
 	OnHealthChanged.Broadcast(this, Health, HealAmount, nullptr, nullptr, nullptr);
+	//OnDamageChanged.Broadcast(this, Health, HealAmount, Armour, NULL, nullptr, nullptr, nullptr);
 }
 
 
@@ -89,6 +93,20 @@ void UHealthComponent::HandleTakeAnyDamage(AActor* DamagedActor, float Damage, c
 
 	//	OnHealthChanged.Broadcast(this, Health, Damage, DamageType, InstigatedBy, DamageCauser);
 	//}
+
+	/*if (Armour > 0 && Health > 0)
+	{
+		float dmg = Damage / 3;
+		Armour = FMath::Clamp(Armour - (dmg * 2), 0.0f, DefaultArmour);
+		UE_LOG(LogTemp, Log, TEXT("Armour Changed: %s"), *FString::SanitizeFloat(Armour));
+
+		Health = FMath::Clamp(Health - dmg, 0.0f, DefaultHealth);
+		UE_LOG(LogTemp, Log, TEXT("Health Changed: %s"), *FString::SanitizeFloat(Health));
+
+		bIsDead = Health <= 0.0f;
+
+		OnDamageChanged.Broadcast(this, Health, dmg, Armour, dmg * 2, DamageType, InstigatedBy, DamageCauser);
+	}*/
 
 	/*Update Health with a clamp to not go under 0*/
 	Health = FMath::Clamp(Health - Damage, 0.0f, DefaultHealth);
@@ -139,4 +157,3 @@ void UHealthComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActo
 //
 //	return HealthCompA->TeamNum == HealthCompB->TeamNum;
 //}
-

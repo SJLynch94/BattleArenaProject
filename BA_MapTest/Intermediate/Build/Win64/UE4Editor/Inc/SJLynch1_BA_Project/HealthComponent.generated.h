@@ -17,7 +17,7 @@ class AActor;
 #endif
 #define SJLYNCH1_BA_PROJECT_HealthComponent_generated_h
 
-#define BA_MapTest_Source_SJLynch1_BA_Project_Public_Components_HealthComponent_h_12_DELEGATE \
+#define BA_MapTest_Source_SJLynch1_BA_Project_Public_Components_HealthComponent_h_14_DELEGATE \
 struct _Script_SJLynch1_BA_Project_eventOnArmourChangedSignature_Parms \
 { \
 	UHealthComponent* HealthComp; \
@@ -26,9 +26,8 @@ struct _Script_SJLynch1_BA_Project_eventOnArmourChangedSignature_Parms \
 	const UDamageType* DamageType; \
 	AController* InstigatedBy; \
 	AActor* DamageCauser; \
-	float Health; \
 }; \
-static inline void FOnArmourChangedSignature_DelegateWrapper(const FMulticastScriptDelegate& OnArmourChangedSignature, UHealthComponent* HealthComp, float Armour, float ArmourDelta, const UDamageType* DamageType, AController* InstigatedBy, AActor* DamageCauser, float Health) \
+static inline void FOnArmourChangedSignature_DelegateWrapper(const FMulticastScriptDelegate& OnArmourChangedSignature, UHealthComponent* HealthComp, float Armour, float ArmourDelta, const UDamageType* DamageType, AController* InstigatedBy, AActor* DamageCauser) \
 { \
 	_Script_SJLynch1_BA_Project_eventOnArmourChangedSignature_Parms Parms; \
 	Parms.HealthComp=HealthComp; \
@@ -37,8 +36,34 @@ static inline void FOnArmourChangedSignature_DelegateWrapper(const FMulticastScr
 	Parms.DamageType=DamageType; \
 	Parms.InstigatedBy=InstigatedBy; \
 	Parms.DamageCauser=DamageCauser; \
-	Parms.Health=Health; \
 	OnArmourChangedSignature.ProcessMulticastDelegate<UObject>(&Parms); \
+}
+
+
+#define BA_MapTest_Source_SJLynch1_BA_Project_Public_Components_HealthComponent_h_12_DELEGATE \
+struct _Script_SJLynch1_BA_Project_eventOnDamagedChangedSignature_Parms \
+{ \
+	UHealthComponent* HealthComp; \
+	float Health; \
+	float HealthDelta; \
+	float Armour; \
+	float ArmourDelta; \
+	const UDamageType* DamageType; \
+	AController* InstigatedBy; \
+	AActor* DamageCauser; \
+}; \
+static inline void FOnDamagedChangedSignature_DelegateWrapper(const FMulticastScriptDelegate& OnDamagedChangedSignature, UHealthComponent* HealthComp, float Health, float HealthDelta, float Armour, float ArmourDelta, const UDamageType* DamageType, AController* InstigatedBy, AActor* DamageCauser) \
+{ \
+	_Script_SJLynch1_BA_Project_eventOnDamagedChangedSignature_Parms Parms; \
+	Parms.HealthComp=HealthComp; \
+	Parms.Health=Health; \
+	Parms.HealthDelta=HealthDelta; \
+	Parms.Armour=Armour; \
+	Parms.ArmourDelta=ArmourDelta; \
+	Parms.DamageType=DamageType; \
+	Parms.InstigatedBy=InstigatedBy; \
+	Parms.DamageCauser=DamageCauser; \
+	OnDamagedChangedSignature.ProcessMulticastDelegate<UObject>(&Parms); \
 }
 
 
@@ -65,7 +90,7 @@ static inline void FOnHealthChangedSignature_DelegateWrapper(const FMulticastScr
 }
 
 
-#define BA_MapTest_Source_SJLynch1_BA_Project_Public_Components_HealthComponent_h_17_RPC_WRAPPERS \
+#define BA_MapTest_Source_SJLynch1_BA_Project_Public_Components_HealthComponent_h_19_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execHeal) \
 	{ \
@@ -90,7 +115,7 @@ static inline void FOnHealthChangedSignature_DelegateWrapper(const FMulticastScr
 	}
 
 
-#define BA_MapTest_Source_SJLynch1_BA_Project_Public_Components_HealthComponent_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+#define BA_MapTest_Source_SJLynch1_BA_Project_Public_Components_HealthComponent_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execHeal) \
 	{ \
@@ -115,7 +140,7 @@ static inline void FOnHealthChangedSignature_DelegateWrapper(const FMulticastScr
 	}
 
 
-#define BA_MapTest_Source_SJLynch1_BA_Project_Public_Components_HealthComponent_h_17_INCLASS_NO_PURE_DECLS \
+#define BA_MapTest_Source_SJLynch1_BA_Project_Public_Components_HealthComponent_h_19_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUHealthComponent(); \
 	friend SJLYNCH1_BA_PROJECT_API class UClass* Z_Construct_UClass_UHealthComponent(); \
@@ -125,7 +150,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define BA_MapTest_Source_SJLynch1_BA_Project_Public_Components_HealthComponent_h_17_INCLASS \
+#define BA_MapTest_Source_SJLynch1_BA_Project_Public_Components_HealthComponent_h_19_INCLASS \
 private: \
 	static void StaticRegisterNativesUHealthComponent(); \
 	friend SJLYNCH1_BA_PROJECT_API class UClass* Z_Construct_UClass_UHealthComponent(); \
@@ -135,7 +160,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define BA_MapTest_Source_SJLynch1_BA_Project_Public_Components_HealthComponent_h_17_STANDARD_CONSTRUCTORS \
+#define BA_MapTest_Source_SJLynch1_BA_Project_Public_Components_HealthComponent_h_19_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UHealthComponent(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UHealthComponent) \
@@ -148,7 +173,7 @@ private: \
 public:
 
 
-#define BA_MapTest_Source_SJLynch1_BA_Project_Public_Components_HealthComponent_h_17_ENHANCED_CONSTRUCTORS \
+#define BA_MapTest_Source_SJLynch1_BA_Project_Public_Components_HealthComponent_h_19_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UHealthComponent(UHealthComponent&&); \
@@ -159,32 +184,34 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UHealthComponent); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UHealthComponent)
 
 
-#define BA_MapTest_Source_SJLynch1_BA_Project_Public_Components_HealthComponent_h_17_PRIVATE_PROPERTY_OFFSET \
+#define BA_MapTest_Source_SJLynch1_BA_Project_Public_Components_HealthComponent_h_19_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__Health() { return STRUCT_OFFSET(UHealthComponent, Health); } \
 	FORCEINLINE static uint32 __PPO__Armour() { return STRUCT_OFFSET(UHealthComponent, Armour); } \
+	FORCEINLINE static uint32 __PPO__OverallStack() { return STRUCT_OFFSET(UHealthComponent, OverallStack); } \
 	FORCEINLINE static uint32 __PPO__DefaultArmour() { return STRUCT_OFFSET(UHealthComponent, DefaultArmour); } \
-	FORCEINLINE static uint32 __PPO__DefaultHealth() { return STRUCT_OFFSET(UHealthComponent, DefaultHealth); }
+	FORCEINLINE static uint32 __PPO__DefaultHealth() { return STRUCT_OFFSET(UHealthComponent, DefaultHealth); } \
+	FORCEINLINE static uint32 __PPO__DefaultOverallStack() { return STRUCT_OFFSET(UHealthComponent, DefaultOverallStack); }
 
 
-#define BA_MapTest_Source_SJLynch1_BA_Project_Public_Components_HealthComponent_h_14_PROLOG
-#define BA_MapTest_Source_SJLynch1_BA_Project_Public_Components_HealthComponent_h_17_GENERATED_BODY_LEGACY \
+#define BA_MapTest_Source_SJLynch1_BA_Project_Public_Components_HealthComponent_h_16_PROLOG
+#define BA_MapTest_Source_SJLynch1_BA_Project_Public_Components_HealthComponent_h_19_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	BA_MapTest_Source_SJLynch1_BA_Project_Public_Components_HealthComponent_h_17_PRIVATE_PROPERTY_OFFSET \
-	BA_MapTest_Source_SJLynch1_BA_Project_Public_Components_HealthComponent_h_17_RPC_WRAPPERS \
-	BA_MapTest_Source_SJLynch1_BA_Project_Public_Components_HealthComponent_h_17_INCLASS \
-	BA_MapTest_Source_SJLynch1_BA_Project_Public_Components_HealthComponent_h_17_STANDARD_CONSTRUCTORS \
+	BA_MapTest_Source_SJLynch1_BA_Project_Public_Components_HealthComponent_h_19_PRIVATE_PROPERTY_OFFSET \
+	BA_MapTest_Source_SJLynch1_BA_Project_Public_Components_HealthComponent_h_19_RPC_WRAPPERS \
+	BA_MapTest_Source_SJLynch1_BA_Project_Public_Components_HealthComponent_h_19_INCLASS \
+	BA_MapTest_Source_SJLynch1_BA_Project_Public_Components_HealthComponent_h_19_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define BA_MapTest_Source_SJLynch1_BA_Project_Public_Components_HealthComponent_h_17_GENERATED_BODY \
+#define BA_MapTest_Source_SJLynch1_BA_Project_Public_Components_HealthComponent_h_19_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	BA_MapTest_Source_SJLynch1_BA_Project_Public_Components_HealthComponent_h_17_PRIVATE_PROPERTY_OFFSET \
-	BA_MapTest_Source_SJLynch1_BA_Project_Public_Components_HealthComponent_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
-	BA_MapTest_Source_SJLynch1_BA_Project_Public_Components_HealthComponent_h_17_INCLASS_NO_PURE_DECLS \
-	BA_MapTest_Source_SJLynch1_BA_Project_Public_Components_HealthComponent_h_17_ENHANCED_CONSTRUCTORS \
+	BA_MapTest_Source_SJLynch1_BA_Project_Public_Components_HealthComponent_h_19_PRIVATE_PROPERTY_OFFSET \
+	BA_MapTest_Source_SJLynch1_BA_Project_Public_Components_HealthComponent_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
+	BA_MapTest_Source_SJLynch1_BA_Project_Public_Components_HealthComponent_h_19_INCLASS_NO_PURE_DECLS \
+	BA_MapTest_Source_SJLynch1_BA_Project_Public_Components_HealthComponent_h_19_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

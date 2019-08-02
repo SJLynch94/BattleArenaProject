@@ -9,7 +9,9 @@
 /*On Health Change Event*/
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_SixParams(FOnHealthChangedSignature, UHealthComponent*, HealthComp, float, Health, float, HealthDelta, const class UDamageType*, DamageType, class AController*, InstigatedBy, AActor*, DamageCauser);
 
-DECLARE_DYNAMIC_MULTICAST_DELEGATE_SevenParams(FOnArmourChangedSignature, UHealthComponent*, HealthComp, float, Armour, float, ArmourDelta, const class UDamageType*, DamageType, class AController*, InstigatedBy, AActor*, DamageCauser, float, Health);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_EightParams(FOnDamagedChangedSignature, UHealthComponent*, HealthComp, float, Health, float, HealthDelta, float, Armour, float, ArmourDelta, const class UDamageType*, DamageType, class AController*, InstigatedBy, AActor*, DamageCauser);
+
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_SixParams(FOnArmourChangedSignature, UHealthComponent*, HealthComp, float, Armour, float, ArmourDelta, const class UDamageType*, DamageType, class AController*, InstigatedBy, AActor*, DamageCauser);
 
 UCLASS( ClassGroup=(BattleArena), meta=(BlueprintSpawnableComponent) )
 class SJLYNCH1_BA_PROJECT_API UHealthComponent : public UActorComponent
@@ -33,11 +35,17 @@ protected:
 	UPROPERTY(BlueprintReadOnly, Category = "HealthComponent")
 	float Armour;
 
+	UPROPERTY(BlueprintReadOnly, Category = "HealthComponent")
+	float OverallStack;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "HealthComponent")
 	float DefaultArmour;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "HealthComponent")
 	float DefaultHealth;
+
+	UPROPERTY(BlueprintReadOnly, Category = "HealthComponent")
+	float DefaultOverallStack;
 
 	UFUNCTION()
 	void HandleTakeAnyDamage(AActor* DamagedActor, float Damage, const class UDamageType* DamageType, class AController* InstigatedBy, AActor* DamageCauser);
@@ -53,6 +61,9 @@ public:
 
 	UPROPERTY(BlueprintAssignable, Category = "Events")
 	FOnArmourChangedSignature OnArmourChanged;
+
+	UPROPERTY(BlueprintAssignable, Category = "Events")
+	FOnDamagedChangedSignature OnDamageChanged;
 
 	float GetHealth();
 
