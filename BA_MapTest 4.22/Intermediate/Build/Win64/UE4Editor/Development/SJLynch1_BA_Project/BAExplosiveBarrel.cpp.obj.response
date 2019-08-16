@@ -436,6 +436,7 @@
 /I "C:\Unreal Projects\BattleArenaWithDoom\BA_MapTest 4.22\Source\SJLynch1_BA_Project\Public\GameMode"
 /I "C:\Unreal Projects\BattleArenaWithDoom\BA_MapTest 4.22\Source\SJLynch1_BA_Project\Public\GLauncher"
 /I "C:\Unreal Projects\BattleArenaWithDoom\BA_MapTest 4.22\Source\SJLynch1_BA_Project\Public\Hero"
+/I "C:\Unreal Projects\BattleArenaWithDoom\BA_MapTest 4.22\Source\SJLynch1_BA_Project\Public\HeroGrenade"
 /I "C:\Unreal Projects\BattleArenaWithDoom\BA_MapTest 4.22\Source\SJLynch1_BA_Project\Public\PickupActor"
 /I "C:\Unreal Projects\BattleArenaWithDoom\BA_MapTest 4.22\Source\SJLynch1_BA_Project\Public\PlayerController"
 /I "C:\Unreal Projects\BattleArenaWithDoom\BA_MapTest 4.22\Source\SJLynch1_BA_Project\Public\PlayerState"
