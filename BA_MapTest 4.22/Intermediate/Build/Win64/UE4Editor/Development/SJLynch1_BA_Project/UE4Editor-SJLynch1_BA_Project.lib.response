@@ -1,0 +1,34 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-SJLynch1_BA_Project.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Unreal Projects\BattleArenaWithDoom\BA_MapTest 4.22\Intermediate\Build\Win64\SJLynch1_BA_ProjectEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Unreal Projects\BattleArenaWithDoom\BA_MapTest 4.22\Intermediate\Build\Win64\UE4Editor\Development\SJLynch1_BA_Project\HealthComponent.cpp.obj"
+"C:\Unreal Projects\BattleArenaWithDoom\BA_MapTest 4.22\Intermediate\Build\Win64\UE4Editor\Development\SJLynch1_BA_Project\BAExplosiveBarrel.cpp.obj"
+"C:\Unreal Projects\BattleArenaWithDoom\BA_MapTest 4.22\Intermediate\Build\Win64\UE4Editor\Development\SJLynch1_BA_Project\BAGameMode.cpp.obj"
+"C:\Unreal Projects\BattleArenaWithDoom\BA_MapTest 4.22\Intermediate\Build\Win64\UE4Editor\Development\SJLynch1_BA_Project\HeroGLauncher.cpp.obj"
+"C:\Unreal Projects\BattleArenaWithDoom\BA_MapTest 4.22\Intermediate\Build\Win64\UE4Editor\Development\SJLynch1_BA_Project\HeroCharacter.cpp.obj"
+"C:\Unreal Projects\BattleArenaWithDoom\BA_MapTest 4.22\Intermediate\Build\Win64\UE4Editor\Development\SJLynch1_BA_Project\BAPickupActor.cpp.obj"
+"C:\Unreal Projects\BattleArenaWithDoom\BA_MapTest 4.22\Intermediate\Build\Win64\UE4Editor\Development\SJLynch1_BA_Project\BAPlayerController.cpp.obj"
+"C:\Unreal Projects\BattleArenaWithDoom\BA_MapTest 4.22\Intermediate\Build\Win64\UE4Editor\Development\SJLynch1_BA_Project\BAPlayerState.cpp.obj"
+"C:\Unreal Projects\BattleArenaWithDoom\BA_MapTest 4.22\Intermediate\Build\Win64\UE4Editor\Development\SJLynch1_BA_Project\BAPowerupActor.cpp.obj"
+"C:\Unreal Projects\BattleArenaWithDoom\BA_MapTest 4.22\Intermediate\Build\Win64\UE4Editor\Development\SJLynch1_BA_Project\HeroWeapon.cpp.obj"
+"C:\Unreal Projects\BattleArenaWithDoom\BA_MapTest 4.22\Intermediate\Build\Win64\UE4Editor\Development\SJLynch1_BA_Project\SJLynch1_BA_Project.cpp.obj"
+"C:\Unreal Projects\BattleArenaWithDoom\BA_MapTest 4.22\Intermediate\Build\Win64\UE4Editor\Development\SJLynch1_BA_Project\BAExplosiveBarrel.gen.cpp.obj"
+"C:\Unreal Projects\BattleArenaWithDoom\BA_MapTest 4.22\Intermediate\Build\Win64\UE4Editor\Development\SJLynch1_BA_Project\BAGameMode.gen.cpp.obj"
+"C:\Unreal Projects\BattleArenaWithDoom\BA_MapTest 4.22\Intermediate\Build\Win64\UE4Editor\Development\SJLynch1_BA_Project\BAPickupActor.gen.cpp.obj"
+"C:\Unreal Projects\BattleArenaWithDoom\BA_MapTest 4.22\Intermediate\Build\Win64\UE4Editor\Development\SJLynch1_BA_Project\BAPlayerController.gen.cpp.obj"
+"C:\Unreal Projects\BattleArenaWithDoom\BA_MapTest 4.22\Intermediate\Build\Win64\UE4Editor\Development\SJLynch1_BA_Project\BAPlayerState.gen.cpp.obj"
+"C:\Unreal Projects\BattleArenaWithDoom\BA_MapTest 4.22\Intermediate\Build\Win64\UE4Editor\Development\SJLynch1_BA_Project\BAPowerupActor.gen.cpp.obj"
+"C:\Unreal Projects\BattleArenaWithDoom\BA_MapTest 4.22\Intermediate\Build\Win64\UE4Editor\Development\SJLynch1_BA_Project\HealthComponent.gen.cpp.obj"
+"C:\Unreal Projects\BattleArenaWithDoom\BA_MapTest 4.22\Intermediate\Build\Win64\UE4Editor\Development\SJLynch1_BA_Project\HeroCharacter.gen.cpp.obj"
+"C:\Unreal Projects\BattleArenaWithDoom\BA_MapTest 4.22\Intermediate\Build\Win64\UE4Editor\Development\SJLynch1_BA_Project\HeroGLauncher.gen.cpp.obj"
+"C:\Unreal Projects\BattleArenaWithDoom\BA_MapTest 4.22\Intermediate\Build\Win64\UE4Editor\Development\SJLynch1_BA_Project\HeroWeapon.gen.cpp.obj"
+"C:\Unreal Projects\BattleArenaWithDoom\BA_MapTest 4.22\Intermediate\Build\Win64\UE4Editor\Development\SJLynch1_BA_Project\SJLynch1_BA_Project.init.gen.cpp.obj"
+"C:\Unreal Projects\BattleArenaWithDoom\BA_MapTest 4.22\Intermediate\Build\Win64\UE4Editor\Development\SJLynch1_BA_Project\Default.rc2.res"
+/OUT:"C:\Unreal Projects\BattleArenaWithDoom\BA_MapTest 4.22\Intermediate\Build\Win64\UE4Editor\Development\SJLynch1_BA_Project\UE4Editor-SJLynch1_BA_Project.lib"
+/INCLUDE:IMPLEMENT_MODULE_SJLynch1_BA_Project

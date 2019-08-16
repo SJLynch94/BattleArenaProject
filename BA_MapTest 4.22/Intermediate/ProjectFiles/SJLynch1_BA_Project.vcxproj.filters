@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\SJLynch1_BA_Project.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{C73D03B1-0877-435D-B50E-47761DA95F53}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\SJLynch1_BA_Project.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\SJLynch1_BA_ProjectEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{E1A75F51-F9FB-48EE-9D1D-86FBF4AC0760}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\SJLynch1_BA_Project">
+      <UniqueIdentifier>{D279C38F-9B9D-4414-BE39-01C680E5C246}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\SJLynch1_BA_Project\SJLynch1_BA_Project.Build.cs">
+      <Filter>Source\SJLynch1_BA_Project</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\SJLynch1_BA_Project\SJLynch1_BA_Project.cpp">
+      <Filter>Source\SJLynch1_BA_Project</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SJLynch1_BA_Project\SJLynch1_BA_Project.h">
+      <Filter>Source\SJLynch1_BA_Project</Filter>
+    </ClInclude>
+    <Filter Include="Source\SJLynch1_BA_Project\Private">
+      <UniqueIdentifier>{7CCB9DC9-2F66-4FEA-8FCD-C3BF8F95756B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\SJLynch1_BA_Project\Private\Components">
+      <UniqueIdentifier>{B239516F-6ADB-4C0D-BF03-E5FD3DBA16AA}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SJLynch1_BA_Project\Private\Components\HealthComponent.cpp">
+      <Filter>Source\SJLynch1_BA_Project\Private\Components</Filter>
+    </ClCompile>
+    <Filter Include="Source\SJLynch1_BA_Project\Private\ExplosiveBarrel">
+      <UniqueIdentifier>{44B42170-9362-4FE5-A13B-C47F2FC10396}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SJLynch1_BA_Project\Private\ExplosiveBarrel\BAExplosiveBarrel.cpp">
+      <Filter>Source\SJLynch1_BA_Project\Private\ExplosiveBarrel</Filter>
+    </ClCompile>
+    <Filter Include="Source\SJLynch1_BA_Project\Private\GameMode">
+      <UniqueIdentifier>{8B862EF3-D487-4BE2-8BDF-56739DECDA12}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SJLynch1_BA_Project\Private\GameMode\BAGameMode.cpp">
+      <Filter>Source\SJLynch1_BA_Project\Private\GameMode</Filter>
+    </ClCompile>
+    <Filter Include="Source\SJLynch1_BA_Project\Private\GLauncher">
+      <UniqueIdentifier>{F55094C9-30E5-472C-88F9-EEAD95A91ECB}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SJLynch1_BA_Project\Private\GLauncher\HeroGLauncher.cpp">
+      <Filter>Source\SJLynch1_BA_Project\Private\GLauncher</Filter>
+    </ClCompile>
+    <Filter Include="Source\SJLynch1_BA_Project\Private\Hero">
+      <UniqueIdentifier>{4E1EDF1C-61B0-4FF3-8D22-69640E8DF59B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SJLynch1_BA_Project\Private\Hero\HeroCharacter.cpp">
+      <Filter>Source\SJLynch1_BA_Project\Private\Hero</Filter>
+    </ClCompile>
+    <Filter Include="Source\SJLynch1_BA_Project\Private\PickupActor">
+      <UniqueIdentifier>{5919D45C-BA38-4E00-B711-4D2E29201EE0}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SJLynch1_BA_Project\Private\PickupActor\BAPickupActor.cpp">
+      <Filter>Source\SJLynch1_BA_Project\Private\PickupActor</Filter>
+    </ClCompile>
+    <Filter Include="Source\SJLynch1_BA_Project\Private\PlayerController">
+      <UniqueIdentifier>{CB73EEE0-9215-4B33-8DCA-2B36B165D0C2}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SJLynch1_BA_Project\Private\PlayerController\BAPlayerController.cpp">
+      <Filter>Source\SJLynch1_BA_Project\Private\PlayerController</Filter>
+    </ClCompile>
+    <Filter Include="Source\SJLynch1_BA_Project\Private\PlayerState">
+      <UniqueIdentifier>{B97E5DED-5B5C-42E8-8616-EDF5508869C0}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SJLynch1_BA_Project\Private\PlayerState\BAPlayerState.cpp">
+      <Filter>Source\SJLynch1_BA_Project\Private\PlayerState</Filter>
+    </ClCompile>
+    <Filter Include="Source\SJLynch1_BA_Project\Private\PowerupActor">
+      <UniqueIdentifier>{A3F2C641-1C94-4D79-A0F8-79B01515F793}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SJLynch1_BA_Project\Private\PowerupActor\BAPowerupActor.cpp">
+      <Filter>Source\SJLynch1_BA_Project\Private\PowerupActor</Filter>
+    </ClCompile>
+    <Filter Include="Source\SJLynch1_BA_Project\Private\Weapon">
+      <UniqueIdentifier>{27791EFF-4407-4843-AC85-67FA74BC99CA}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SJLynch1_BA_Project\Private\Weapon\HeroWeapon.cpp">
+      <Filter>Source\SJLynch1_BA_Project\Private\Weapon</Filter>
+    </ClCompile>
+    <Filter Include="Source\SJLynch1_BA_Project\Public">
+      <UniqueIdentifier>{ED2C1DBD-FB7A-43DA-BB09-1B43F3548F29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\SJLynch1_BA_Project\Public\Components">
+      <UniqueIdentifier>{700CCCAD-A8B8-4BE8-A192-30DF66CF679D}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\SJLynch1_BA_Project\Public\Components\HealthComponent.h">
+      <Filter>Source\SJLynch1_BA_Project\Public\Components</Filter>
+    </ClInclude>
+    <Filter Include="Source\SJLynch1_BA_Project\Public\ExplosiveBarrel">
+      <UniqueIdentifier>{99CE89EA-F832-4CA3-86BA-1C1ED381EF8C}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\SJLynch1_BA_Project\Public\ExplosiveBarrel\BAExplosiveBarrel.h">
+      <Filter>Source\SJLynch1_BA_Project\Public\ExplosiveBarrel</Filter>
+    </ClInclude>
+    <Filter Include="Source\SJLynch1_BA_Project\Public\GameMode">
+      <UniqueIdentifier>{961F054E-E041-4C89-A0F4-C2FC6929C557}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\SJLynch1_BA_Project\Public\GameMode\BAGameMode.h">
+      <Filter>Source\SJLynch1_BA_Project\Public\GameMode</Filter>
+    </ClInclude>
+    <Filter Include="Source\SJLynch1_BA_Project\Public\GLauncher">
+      <UniqueIdentifier>{03265732-05F3-45FD-8669-7673C9D9ACB9}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\SJLynch1_BA_Project\Public\GLauncher\HeroGLauncher.h">
+      <Filter>Source\SJLynch1_BA_Project\Public\GLauncher</Filter>
+    </ClInclude>
+    <Filter Include="Source\SJLynch1_BA_Project\Public\Hero">
+      <UniqueIdentifier>{0E3D1092-7835-47AE-90AD-F36E93BA8730}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\SJLynch1_BA_Project\Public\Hero\HeroCharacter.h">
+      <Filter>Source\SJLynch1_BA_Project\Public\Hero</Filter>
+    </ClInclude>
+    <Filter Include="Source\SJLynch1_BA_Project\Public\PickupActor">
+      <UniqueIdentifier>{1AB1CD2C-0E8D-428E-AFAD-329A09FB9CC5}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\SJLynch1_BA_Project\Public\PickupActor\BAPickupActor.h">
+      <Filter>Source\SJLynch1_BA_Project\Public\PickupActor</Filter>
+    </ClInclude>
+    <Filter Include="Source\SJLynch1_BA_Project\Public\PlayerController">
+      <UniqueIdentifier>{7D7241BA-DFBC-40F1-8FCA-36149C800F5B}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\SJLynch1_BA_Project\Public\PlayerController\BAPlayerController.h">
+      <Filter>Source\SJLynch1_BA_Project\Public\PlayerController</Filter>
+    </ClInclude>
+    <Filter Include="Source\SJLynch1_BA_Project\Public\PlayerState">
+      <UniqueIdentifier>{EC189293-0D3C-48E3-AC39-EDC81960F137}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\SJLynch1_BA_Project\Public\PlayerState\BAPlayerState.h">
+      <Filter>Source\SJLynch1_BA_Project\Public\PlayerState</Filter>
+    </ClInclude>
+    <Filter Include="Source\SJLynch1_BA_Project\Public\PowerupActor">
+      <UniqueIdentifier>{21282287-1514-45BA-85F2-B0196191FCC4}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\SJLynch1_BA_Project\Public\PowerupActor\BAPowerupActor.h">
+      <Filter>Source\SJLynch1_BA_Project\Public\PowerupActor</Filter>
+    </ClInclude>
+    <Filter Include="Source\SJLynch1_BA_Project\Public\Weapon">
+      <UniqueIdentifier>{1EB3BCBA-AC2F-43BD-86B7-9D37E042B8C6}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\SJLynch1_BA_Project\Public\Weapon\HeroWeapon.h">
+      <Filter>Source\SJLynch1_BA_Project\Public\Weapon</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

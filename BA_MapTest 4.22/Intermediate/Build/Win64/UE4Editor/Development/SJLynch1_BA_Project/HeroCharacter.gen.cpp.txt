@@ -1,0 +1,9 @@
+C:\Unreal Projects\BattleArenaWithDoom\BA_MapTest 4.22\Intermediate\Build\Win64\UE4Editor\Development\SJLynch1_BA_Project\Definitions.SJLynch1_BA_Project.h
+C:\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Unreal Projects\BattleArenaWithDoom\BA_MapTest 4.22\Source\SJLynch1_BA_Project/Public/Hero/HeroCharacter.h
+C:\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+C:\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+C:\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+C:\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+c:\unreal projects\battlearenawithdoom\ba_maptest 4.22\intermediate\build\win64\ue4editor\inc\sjlynch1_ba_project\HeroCharacter.generated.h
