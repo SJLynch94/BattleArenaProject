@@ -1,0 +1,6 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Unreal Projects\BattleArenaWithDoom).
+  Creating makefile for SJLynch1_BA_ProjectEditor (no existing makefile)
+  Parsing headers for SJLynch1_BA_ProjectEditor
+    Running UnrealHeaderTool "C:\Unreal Projects\BattleArenaWithDoom\BA_MapTest 4.22\SJLynch1_BA_Project.uproject" "C:\Unreal Projects\BattleArenaWithDoom\BA_MapTest 4.22\Intermediate\Build\Win64\SJLynch1_BA_ProjectEditor\Development\SJLynch1_BA_ProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  C:/Unreal Projects/BattleArenaWithDoom/BA_MapTest 4.22/Source/SJLynch1_BA_Project/Public/Hero/HeroCharacter.h(48) : LogCompile: Error: Found more than one edit/visibility specifier (EditDefaultsOnly), only one is allowed
+S:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.MakeFile.Targets(44,5): error MSB3075: The command ""C:\Epic Games\UE_4.22\Engine\Build\BatchFiles\Build.bat" SJLynch1_BA_ProjectEditor Win64 Development -Project="C:\Unreal Projects\BattleArenaWithDoom\BA_MapTest 4.22\SJLynch1_BA_Project.uproject" -WaitMutex -FromMsBuild" exited with code 5. Please verify that you have sufficient rights to run this command.

@@ -380,7 +380,6 @@
     <ClCompile Include="..\..\Source\SJLynch1_BA_Project\Private\GameMode\BAGameMode.cpp" />
     <ClCompile Include="..\..\Source\SJLynch1_BA_Project\Private\GLauncher\HeroGLauncher.cpp" />
     <ClCompile Include="..\..\Source\SJLynch1_BA_Project\Private\Hero\HeroCharacter.cpp" />
-    <ClCompile Include="..\..\Source\SJLynch1_BA_Project\Private\HeroGrenade\HGrenade.cpp" />
     <ClCompile Include="..\..\Source\SJLynch1_BA_Project\Private\PickupActor\BAPickupActor.cpp" />
     <ClCompile Include="..\..\Source\SJLynch1_BA_Project\Private\PlayerController\BAPlayerController.cpp" />
     <ClCompile Include="..\..\Source\SJLynch1_BA_Project\Private\PlayerState\BAPlayerState.cpp" />
@@ -391,7 +390,6 @@
     <ClInclude Include="..\..\Source\SJLynch1_BA_Project\Public\GameMode\BAGameMode.h" />
     <ClInclude Include="..\..\Source\SJLynch1_BA_Project\Public\GLauncher\HeroGLauncher.h" />
     <ClInclude Include="..\..\Source\SJLynch1_BA_Project\Public\Hero\HeroCharacter.h" />
-    <ClInclude Include="..\..\Source\SJLynch1_BA_Project\Public\HeroGrenade\HGrenade.h" />
     <ClInclude Include="..\..\Source\SJLynch1_BA_Project\Public\PickupActor\BAPickupActor.h" />
     <ClInclude Include="..\..\Source\SJLynch1_BA_Project\Public\PlayerController\BAPlayerController.h" />
     <ClInclude Include="..\..\Source\SJLynch1_BA_Project\Public\PlayerState\BAPlayerState.h" />

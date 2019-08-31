@@ -1,6 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "HeroWeapon.h"
+#include "HeroCharacter.h"
 #include "DrawDebugHelpers.h"
 #include "Kismet/GameplayStatics.h"
 #include "Particles/ParticleSystem.h"
@@ -92,9 +93,22 @@ void AHeroWeapon::Fire()
 
 				damageModifier = baseDamage;
 
-				if (rand() % 100 + 1 > criticalChance/*Random is > 5*/)
+				//if (rand() % 100 + 1 > criticalChance/*Random is > 5*/)
+				//{
+				//	damageModifier *= damageModifierValue;
+				//}
+
+				APawn* MyOwner = Cast<APawn>(GetOwner());
+				if (MyOwner)
 				{
-					damageModifier *= damageModifierValue;
+					AHeroCharacter* PC = Cast<AHeroCharacter>(MyOwner->GetController());
+					if (PC)
+					{
+						if (PC->bIsQuadActive)
+						{
+							damageModifier *= 4.0f;
+						}
+					}
 				}
 
 

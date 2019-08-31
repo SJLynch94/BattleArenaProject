@@ -45,6 +45,9 @@ protected:
 	UPROPERTY(BlueprintReadWrite, Category = "Weapon")
 	AHeroWeapon* CurrentWeapon;
 
+	UPROPERTY(VisibleAnywhere, EditDefaultsOnly, Category = "Player")
+	float ThrowingMultiplier;
+
 	FTimerHandle TimerHandle_TimeBetweenShots;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Player")
@@ -106,6 +109,8 @@ public:
 
 	virtual FVector GetPawnViewLocation() const override;
 
+	UPROPERTY(BlueprintReadWrite, Category = "Player")
+	bool bIsQuadActive;
 
 	//UFUNCTION(BlueprintCallable, Category = "Player")
 	//void Fire();

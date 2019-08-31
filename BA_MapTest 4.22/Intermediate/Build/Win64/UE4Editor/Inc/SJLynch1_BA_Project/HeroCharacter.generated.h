@@ -178,6 +178,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AHeroCharacter); \
 	FORCEINLINE static uint32 __PPO__SpringArmComp() { return STRUCT_OFFSET(AHeroCharacter, SpringArmComp); } \
 	FORCEINLINE static uint32 __PPO__HealthComp() { return STRUCT_OFFSET(AHeroCharacter, HealthComp); } \
 	FORCEINLINE static uint32 __PPO__CurrentWeapon() { return STRUCT_OFFSET(AHeroCharacter, CurrentWeapon); } \
+	FORCEINLINE static uint32 __PPO__ThrowingMultiplier() { return STRUCT_OFFSET(AHeroCharacter, ThrowingMultiplier); } \
 	FORCEINLINE static uint32 __PPO__Self() { return STRUCT_OFFSET(AHeroCharacter, Self); } \
 	FORCEINLINE static uint32 __PPO__StarterWeaponClass() { return STRUCT_OFFSET(AHeroCharacter, StarterWeaponClass); } \
 	FORCEINLINE static uint32 __PPO__WeaponAttackSocketName() { return STRUCT_OFFSET(AHeroCharacter, WeaponAttackSocketName); } \

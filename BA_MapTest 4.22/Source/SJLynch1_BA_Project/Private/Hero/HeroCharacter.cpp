@@ -40,6 +40,8 @@ AHeroCharacter::AHeroCharacter()
 
 	ZoomedFOV = 65.0f;
 	ZoomInterpSpeed = 20.0f;
+
+	ThrowingMultiplier = 50.0f;
 }
 
 // Called when the game starts or when spawned

@@ -74,12 +74,6 @@
     <ClCompile Include="..\..\Source\SJLynch1_BA_Project\Private\Hero\HeroCharacter.cpp">
       <Filter>Source\SJLynch1_BA_Project\Private\Hero</Filter>
     </ClCompile>
-    <Filter Include="Source\SJLynch1_BA_Project\Private\HeroGrenade">
-      <UniqueIdentifier>{D8B34AC0-2768-4FA0-9C26-964DDE7B70FF}</UniqueIdentifier>
-    </Filter>
-    <ClCompile Include="..\..\Source\SJLynch1_BA_Project\Private\HeroGrenade\HGrenade.cpp">
-      <Filter>Source\SJLynch1_BA_Project\Private\HeroGrenade</Filter>
-    </ClCompile>
     <Filter Include="Source\SJLynch1_BA_Project\Private\PickupActor">
       <UniqueIdentifier>{D621D42B-D2CA-4690-8F4D-2401BE63147E}</UniqueIdentifier>
     </Filter>
@@ -142,12 +136,6 @@
     </Filter>
     <ClInclude Include="..\..\Source\SJLynch1_BA_Project\Public\Hero\HeroCharacter.h">
       <Filter>Source\SJLynch1_BA_Project\Public\Hero</Filter>
-    </ClInclude>
-    <Filter Include="Source\SJLynch1_BA_Project\Public\HeroGrenade">
-      <UniqueIdentifier>{310EFB51-B21F-4C1E-B246-DFF2E6D211C7}</UniqueIdentifier>
-    </Filter>
-    <ClInclude Include="..\..\Source\SJLynch1_BA_Project\Public\HeroGrenade\HGrenade.h">
-      <Filter>Source\SJLynch1_BA_Project\Public\HeroGrenade</Filter>
     </ClInclude>
     <Filter Include="Source\SJLynch1_BA_Project\Public\PickupActor">
       <UniqueIdentifier>{187FC306-50B3-42E9-8EAD-1FE9554D99C4}</UniqueIdentifier>

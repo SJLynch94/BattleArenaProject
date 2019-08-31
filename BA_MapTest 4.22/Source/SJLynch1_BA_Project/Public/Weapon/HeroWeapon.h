@@ -64,7 +64,7 @@ protected:
 	int32 criticalChance;
 
 	/* The amount that the Critical Chance Damage will be increase by i.e. damageModifier * damageModifierValue */
-	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Weapon")
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Weapon")
 	int32 damageModifierValue;
 
 	/* Bullet Spread In Degrees */

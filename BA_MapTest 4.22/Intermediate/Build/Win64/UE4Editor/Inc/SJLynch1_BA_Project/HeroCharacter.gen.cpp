@@ -270,6 +270,11 @@ void EmptyLinkFunctionForGeneratedCodeHeroCharacter() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bIsQuadActive_MetaData[];
+#endif
+		static void NewProp_bIsQuadActive_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bIsQuadActive;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_GodModeDown_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_GodModeDown;
@@ -321,6 +326,10 @@ void EmptyLinkFunctionForGeneratedCodeHeroCharacter() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Self;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ThrowingMultiplier_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_ThrowingMultiplier;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CurrentWeapon_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_CurrentWeapon;
@@ -358,6 +367,17 @@ void EmptyLinkFunctionForGeneratedCodeHeroCharacter() {}
 		{ "ModuleRelativePath", "Public/Hero/HeroCharacter.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AHeroCharacter_Statics::NewProp_bIsQuadActive_MetaData[] = {
+		{ "Category", "Player" },
+		{ "ModuleRelativePath", "Public/Hero/HeroCharacter.h" },
+	};
+#endif
+	void Z_Construct_UClass_AHeroCharacter_Statics::NewProp_bIsQuadActive_SetBit(void* Obj)
+	{
+		((AHeroCharacter*)Obj)->bIsQuadActive = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AHeroCharacter_Statics::NewProp_bIsQuadActive = { "bIsQuadActive", nullptr, (EPropertyFlags)0x0010000000000004, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AHeroCharacter), &Z_Construct_UClass_AHeroCharacter_Statics::NewProp_bIsQuadActive_SetBit, METADATA_PARAMS(Z_Construct_UClass_AHeroCharacter_Statics::NewProp_bIsQuadActive_MetaData, ARRAY_COUNT(Z_Construct_UClass_AHeroCharacter_Statics::NewProp_bIsQuadActive_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AHeroCharacter_Statics::NewProp_GodModeDown_MetaData[] = {
 		{ "Category", "Player" },
@@ -459,6 +479,13 @@ void EmptyLinkFunctionForGeneratedCodeHeroCharacter() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AHeroCharacter_Statics::NewProp_Self = { "Self", nullptr, (EPropertyFlags)0x0020080000020015, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AHeroCharacter, Self), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AHeroCharacter_Statics::NewProp_Self_MetaData, ARRAY_COUNT(Z_Construct_UClass_AHeroCharacter_Statics::NewProp_Self_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AHeroCharacter_Statics::NewProp_ThrowingMultiplier_MetaData[] = {
+		{ "Category", "Player" },
+		{ "ModuleRelativePath", "Public/Hero/HeroCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AHeroCharacter_Statics::NewProp_ThrowingMultiplier = { "ThrowingMultiplier", nullptr, (EPropertyFlags)0x0020080000030001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AHeroCharacter, ThrowingMultiplier), METADATA_PARAMS(Z_Construct_UClass_AHeroCharacter_Statics::NewProp_ThrowingMultiplier_MetaData, ARRAY_COUNT(Z_Construct_UClass_AHeroCharacter_Statics::NewProp_ThrowingMultiplier_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AHeroCharacter_Statics::NewProp_CurrentWeapon_MetaData[] = {
 		{ "Category", "Weapon" },
 		{ "ModuleRelativePath", "Public/Hero/HeroCharacter.h" },
@@ -490,6 +517,7 @@ void EmptyLinkFunctionForGeneratedCodeHeroCharacter() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AHeroCharacter_Statics::NewProp_CameraComp = { "CameraComp", nullptr, (EPropertyFlags)0x00200800000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AHeroCharacter, CameraComp), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AHeroCharacter_Statics::NewProp_CameraComp_MetaData, ARRAY_COUNT(Z_Construct_UClass_AHeroCharacter_Statics::NewProp_CameraComp_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AHeroCharacter_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHeroCharacter_Statics::NewProp_bIsQuadActive,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHeroCharacter_Statics::NewProp_GodModeDown,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHeroCharacter_Statics::NewProp_GodLikeSound,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHeroCharacter_Statics::NewProp_FootSteps,
@@ -502,6 +530,7 @@ void EmptyLinkFunctionForGeneratedCodeHeroCharacter() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHeroCharacter_Statics::NewProp_WeaponAttackSocketName,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHeroCharacter_Statics::NewProp_StarterWeaponClass,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHeroCharacter_Statics::NewProp_Self,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHeroCharacter_Statics::NewProp_ThrowingMultiplier,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHeroCharacter_Statics::NewProp_CurrentWeapon,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHeroCharacter_Statics::NewProp_HealthComp,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHeroCharacter_Statics::NewProp_SpringArmComp,
@@ -534,7 +563,7 @@ void EmptyLinkFunctionForGeneratedCodeHeroCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AHeroCharacter, 518928740);
+	IMPLEMENT_CLASS(AHeroCharacter, 959915941);
 	template<> SJLYNCH1_BA_PROJECT_API UClass* StaticClass<AHeroCharacter>()
 	{
 		return AHeroCharacter::StaticClass();

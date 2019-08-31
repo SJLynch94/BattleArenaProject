@@ -307,7 +307,7 @@ void EmptyLinkFunctionForGeneratedCodeHeroWeapon() {}
 		{ "ToolTip", "The amount that the Critical Chance Damage will be increase by i.e. damageModifier * damageModifierValue" },
 	};
 #endif
-	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_AHeroWeapon_Statics::NewProp_damageModifierValue = { "damageModifierValue", nullptr, (EPropertyFlags)0x0020080000010015, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AHeroWeapon, damageModifierValue), METADATA_PARAMS(Z_Construct_UClass_AHeroWeapon_Statics::NewProp_damageModifierValue_MetaData, ARRAY_COUNT(Z_Construct_UClass_AHeroWeapon_Statics::NewProp_damageModifierValue_MetaData)) };
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_AHeroWeapon_Statics::NewProp_damageModifierValue = { "damageModifierValue", nullptr, (EPropertyFlags)0x0020080000010005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AHeroWeapon, damageModifierValue), METADATA_PARAMS(Z_Construct_UClass_AHeroWeapon_Statics::NewProp_damageModifierValue_MetaData, ARRAY_COUNT(Z_Construct_UClass_AHeroWeapon_Statics::NewProp_damageModifierValue_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AHeroWeapon_Statics::NewProp_criticalChance_MetaData[] = {
 		{ "Category", "Weapon" },
@@ -438,7 +438,7 @@ void EmptyLinkFunctionForGeneratedCodeHeroWeapon() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AHeroWeapon, 3865180029);
+	IMPLEMENT_CLASS(AHeroWeapon, 148591646);
 	template<> SJLYNCH1_BA_PROJECT_API UClass* StaticClass<AHeroWeapon>()
 	{
 		return AHeroWeapon::StaticClass();

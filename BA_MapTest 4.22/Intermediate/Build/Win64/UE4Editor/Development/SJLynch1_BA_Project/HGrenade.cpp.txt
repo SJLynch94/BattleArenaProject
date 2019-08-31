@@ -1,3 +1,0 @@
-C:\Unreal Projects\BattleArenaWithDoom\BA_MapTest 4.22\Intermediate\Build\Win64\UE4Editor\Development\SJLynch1_BA_Project\Definitions.SJLynch1_BA_Project.h
-C:\Unreal Projects\BattleArenaWithDoom\BA_MapTest 4.22\Source\SJLynch1_BA_Project\Public\HeroGrenade\HGrenade.h
-C:\Unreal Projects\BattleArenaWithDoom\BA_MapTest 4.22\Intermediate\Build\Win64\UE4Editor\Inc\SJLynch1_BA_Project\HGrenade.generated.h

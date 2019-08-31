@@ -101,7 +101,7 @@ void EmptyLinkFunctionForGeneratedCodeHeroGLauncher() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AHeroGLauncher, 2594847305);
+	IMPLEMENT_CLASS(AHeroGLauncher, 1992099067);
 	template<> SJLYNCH1_BA_PROJECT_API UClass* StaticClass<AHeroGLauncher>()
 	{
 		return AHeroGLauncher::StaticClass();
